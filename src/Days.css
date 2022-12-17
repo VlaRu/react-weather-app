@@ -1,0 +1,30 @@
+.week-weather-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px; 
+  margin-bottom: 100px;
+}
+
+.week-weather{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid rgb(99, 19, 19);
+  background-color: rgba(175, 124, 124, 0.3);
+}
+
+.day-week{
+  min-width: 120px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.day-weather{
+  font-size: 18px;
+}

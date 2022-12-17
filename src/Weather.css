@@ -1,0 +1,42 @@
+.heading{
+  font-size: 60px;
+  color: #4b42f5;
+  text-shadow: 1px 1px 2px rgb(167, 61, 79);
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.form-input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.local-data{
+  transition: 0.3 ease;
+  cursor: pointer;
+}
+
+.type-city{
+  border-radius: 20px;
+  width: 350px;
+  height: 50px;
+  border: 3px solid #4b42f5;
+  font-size: 22px;
+  text-indent: 15px;
+}
+
+.search-button{
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  background-color: #8a84f3;
+  border-radius: 15px;
+  margin-left: 10px;
+  width: 105px;
+  height: 50px;
+  cursor: pointer;
+}
