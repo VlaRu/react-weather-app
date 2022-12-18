@@ -2,12 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Weather from './Weather';
+import Result from './Result';
+import Days from './Days';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className='container'>
+      <Weather />
+      <Result />
+      <Days />
+      <Footer/>
+    </div>
   </React.StrictMode>
 );
 

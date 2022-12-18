@@ -1,0 +1,46 @@
+.description-weather{
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(0, 4, 5);
+  text-shadow:  2px 1px 2px rgb(14, 194, 244);
+}
+
+.main-degree-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.city{
+  text-transform: capitalize;
+  font-size: 42px;
+}
+
+#degree{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.degree-container{
+  margin-right: 60px;
+}
+
+span.f,span.c{
+  font-size: 30px;
+  cursor: pointer;
+  color: #000003;
+}
+
+span:hover{
+  color: #4b42f5;
+}
+.degree-container{
+  margin-right: 60px;
+}
+
+#degree:hover{
+  color: #000003;
+}
+
